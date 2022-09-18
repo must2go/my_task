@@ -21,8 +21,8 @@ body {
 
 .container {
   max-width: 400px;
-
   margin: 0 auto;
+  padding: 0 20px
 }
 
 .header {
@@ -39,7 +39,7 @@ body {
   letter-spacing: 0.25em;
 }
 
-.addtasks_form {
+.addtasks__form {
   margin: 0 auto;
   /* padding: 0 15px; */
 }
@@ -88,7 +88,8 @@ body {
 
 .tasklist__task {
   width: 100%;
-  padding: 0 20px 40px 20px;
+  /* padding: 0 20px 40px 20px; */
+  margin-bottom: 40px;
 }
 
 .tasklist__task:last-child {
