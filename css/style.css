@@ -22,15 +22,20 @@ body {
 .container {
   max-width: 400px;
   margin: 0 auto;
-  padding: 0 20px
-}
-
-.header {
+  padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 0 35px 0;
+  flex-direction: column;
 }
+
+/* .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 35px 0;
+} */
 
 .header__logo {
   font-weight: 700;
@@ -88,7 +93,6 @@ body {
 
 .tasklist__task {
   width: 100%;
-  /* padding: 0 20px 40px 20px; */
   margin-bottom: 40px;
 }
 
