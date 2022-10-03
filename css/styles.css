@@ -9,15 +9,15 @@
 
 body {
   height: 100vh;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  
   font-family: 'Monda', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: var(--font_color);
+  background-color: #fff;
 }
 
 .header-title {
@@ -158,8 +158,10 @@ body {
 
 
 .figure {
-  top: -150px;
-  left: calc(50% - 360px) position: relative;
+  top: -200px;
+  left: calc(50% - 315px);
+  position: relative;
+  z-index: -1;
 }
 
 .ellipse {
@@ -174,10 +176,6 @@ body {
   background-color: var(--lightblue_ellips_color);
   top: 50px;
   z-index: -1;
-}
-
-.step {
-  left: 150px;
 }
 
 .two {
